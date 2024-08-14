@@ -13,3 +13,8 @@ Fix spacing on phone mode
 
 
 Footer bg colour
+
+Add cricket achievements
+Add college contributions
+
+Smaller uni projects like spinning robot
