@@ -1,10 +1,7 @@
 Add a header
 
-Fill in sections
 
-Link CV
-
-Colour Scheme
+Link CV?
 
 Footer
 
@@ -12,9 +9,6 @@ Fix spacing on phone mode
     Padding of DIV
 
 
-Footer bg colour
+Smaller uni projects like spinning robot?
 
-Add cricket achievements
-Add college contributions
 
-Smaller uni projects like spinning robot
