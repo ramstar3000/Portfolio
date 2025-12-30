@@ -1,0 +1,15 @@
+/* Box Styles */
+
+.info-box {
+    padding: 40px 70px;
+    border-radius: 32px;
+    margin-bottom: 20px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 767px) {
+    .info-box {
+        padding: 22px 14px;
+        border-radius: 20px;
+    }
+}

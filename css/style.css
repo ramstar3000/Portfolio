@@ -1,0 +1,25 @@
+/* Custom Styles for Portfolio */
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Add Navigation styles here */
+
+/* Background Colors */
+.bg-gray-light {
+    background-color: #E2E2E2;
+}
+
+.bg-gray-dark {
+    background-color: #E0E0E0;
+}
+
+.bg-blue {
+    background-color: #89cbdb;
+}
+
+.bg-footer {
+    background-color: #F6F4EF;
+}
