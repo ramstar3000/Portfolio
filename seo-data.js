@@ -12,7 +12,7 @@ const schemaData = {
         "name": "University of Cambridge"
     },
     "knowsAbout": ["Computer Science", "Deep Learning", "Natural Language Processing", "Machine Learning", "Graph Neural Networks", "Software Engineering"],
-    "url": "https://ramstar3000.github.io/",
+    "url": "https://ramstar3000.github.io/Portfolio/",
     "sameAs": [
         "https://www.linkedin.com/in/ram-vinjamuri/",
         "https://github.com/ramstar3000"
