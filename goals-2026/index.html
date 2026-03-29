@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Ram's 2026 Goals</title>
+
+    <!-- Google Fonts: Space Grotesk & Lexend -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Marked.js for Markdown Rendering -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>2026 Vision</h1>
+            <p class="subtitle">Build. Connect. Scale. 2026: The Year of Compounding Construction.</p>
+        </header>
+
+        <div class="goals-grid">
+            <!-- Goal 1 -->
+            <div class="goal-card" onclick="toggleCard(this)">
+                <div class="goal-header">
+                    <div class="goal-icon">🚀</div>
+                    <div class="goal-content">
+                        <div class="goal-title">Excel at Palantir</div>
+                    </div>
+                    <div class="status-badge">In Progress</div>
+                </div>
+
+                <div class="goal-details">
+                    <div class="markdown-content"></div>
+                    <script type="text/markdown">
+## TODO
+
+### Drive impact through technical excellence and forward deployment.
+### Key Objectives
+- **Technical Mastery**: Deep dive into the stack and become a go-to expert for core components.
+- **Client Impact**: Deliver high-value features that directly solve critical client problems.
+
+
+### Q1 Targets
+1. Ship X.
+
+
+                    </script>
+                </div>
+            </div>
+
+            <!-- Goal 2 -->
+            <div class="goal-card" onclick="toggleCard(this)">
+                <div class="goal-header">
+                    <div class="goal-icon">💪</div>
+                    <div class="goal-content">
+                        <div class="goal-title">Project Constructions</div>
+                    </div>
+                    <div class="status-badge">Planned</div>
+                </div>
+
+                <div class="goal-details">
+                    <div class="markdown-content"></div>
+                    <script type="text/markdown">
+
+## Build and scale real-world applications with active user bases.
+### The Shift to Production
+In 2025, we brainstormed. **In 2026, we build.**
+
+### Project Roadmap
+- **Project Leadly**
+- **Project Sherlock**
+- **Project Blueprint.io**
+
+> "Real artists ship." - Steve Jobs
+
+Priority for these projects
+- Build with rigorous testing and quality
+- Focus on gaining users and making things which are useful
+
+
+
+                    </script>
+                </div>
+            </div>
+
+            <!-- Goal 3 -->
+            <div class="goal-card" onclick="toggleCard(this)">
+                <div class="goal-header">
+                    <div class="goal-icon">🌍</div>
+                    <div class="goal-content">
+                        <div class="goal-title">Travel & Networking</div>
+                    </div>
+                    <div class="status-badge">Q3 Target</div>
+                </div>
+
+                <div class="goal-details">
+                    <div class="markdown-content"></div>
+
+                    <script type="text/markdown">
+
+### Travel Goals
+- Visit the Swiss Alps and try sports 
+- Travel to 1/2 Eastern Europe countries. [Bulgaria, Macedonia, Hungary]
+- Visit one new English city every 2 months. [Edinburgh, Bristol, Cardiff]
+- Visit the French Christmas market: Strasbourg
+
+
+### Networking Goals
+- Reach out to founders in the UK (Any)
+- Reach out to founders in the US (Specific projects I find interesting)
+- Set up Linkedin random sync scheme with a filter for my preferences and maximise the number of connections and get stats, try to commercialise
+- Go to 2/3 hackathons and vibe the vibe
+
+
+                    </script>
+                </div>
+            </div>
+
+            <!-- Goal 4 -->
+            <div class="goal-card" onclick="toggleCard(this)">
+                <div class="goal-header">
+                    <div class="goal-icon">📚</div>
+                    <div class="goal-content">
+                        <div class="goal-title">Read 12 Books</div>
+                        <div class="goal-desc"></div>
+                    </div>
+                    <div class="status-badge">0/12</div>
+                </div>
+
+                <div class="goal-details">
+                    <div class="markdown-content"></div>
+                    <script type="text/markdown">
+
+### Reading List 2026
+
+**Fiction**
+- Dune by Frank Herbert [book 1]
+
+**AI & Future**
+
+
+**Personal Development / Ambitions**
+- "What is your dream" by Simon Squibb
+- "Speaking tree" by TOI
+
+
+**Spirituality**
+- "Bhagavad Gita" by Vedavyas (Prabhupada Translation)
+- "TO SCOPE"
+
+Aim is to read a book every month.
+
+
+                    </script>
+                </div>
+            </div>
+
+
+            <!-- Goal 5 -->
+            <div class="goal-card" onclick="toggleCard(this)">
+                <div class="goal-header">
+                    <div class="goal-icon">🏏</div>
+                    <div class="goal-content">
+                        <div class="goal-title">Sporting Goals</div>
+                    </div>
+                    <div class="status-badge">Planned</div>
+                </div>
+
+                <div class="goal-details">
+                    <div class="markdown-content"></div>
+                    <script type="text/markdown">
+### Cricket & Table Tennis
+- Get back into competitive cricket.
+- Join a local cricket league and try to excel in it.
+- Try to play table tennis bi-weekly.
+
+### Fitness
+- Gym consistently 2x a week.
+- Achieve 5km run time target of ____
+- Cycling as much as possible to work, ~ 1 hour a day
+- Cycling 50km target
+                    </script>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+    <script>
+        // Initialize all cards
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.goal-card').forEach(card => {
+                const script = card.querySelector('script[type="text/markdown"]');
+                const contentDiv = card.querySelector('.markdown-content');
+                if (script && contentDiv) {
+                    // Clean indentation from the template literal
+                    let rawMarkdown = script.innerHTML;
+
+                    // Remove common leading whitespace to fix indentation issues
+                    const lines = rawMarkdown.split('\n');
+                    const minIndent = lines
+                        .filter(l => l.trim())
+                        .reduce((min, l) => {
+                            const indent = l.match(/^\s*/)[0].length;
+                            return Math.min(min, indent);
+                        }, Infinity);
+
+                    if (minIndent !== Infinity) {
+                        rawMarkdown = lines.map(l => l.substring(minIndent)).join('\n');
+                    }
+
+                    // Render markdown
+                    contentDiv.innerHTML = marked.parse(rawMarkdown);
+                }
+            });
+        });
+
+        function toggleCard(card) {
+            // Close other cards
+            document.querySelectorAll('.goal-card.expanded').forEach(c => {
+                if (c !== card) c.classList.remove('expanded');
+            });
+
+            // Toggle current card
+            card.classList.toggle('expanded');
+        }
+    </script>
+</body>
+
+</html>
