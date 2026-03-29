@@ -16,6 +16,14 @@
 - [ ] **Dark Mode**: Implement a dark/light mode toggle.
 - [ ] **Animations**: Add subtle animations for section transitions.
 
+## 📄 CV / Website Content Sync
+- [ ] **Add Leadly to CV**: Leadly project (Jan-Mar 2026) is on the website but missing from `resume.tex`.
+- [ ] **Add missing projects to website**: Copilot For Business, Buoyant Observer of Billabongs, and Skin Cancer CNN are in the CV but not on the website.
+- [ ] **Install LaTeX locally**: Install TinyTeX and add to PATH so `pdflatex resume.tex` works for local compilation.
+- [x] **Fix stale dissertation text**: Updated "in the process of publishing" to link to published ACL WiNLP 2025 paper.
+- [x] **Fix broken certificate link**: Andrew Ng ML Coursera verification link was empty, now points to correct URL.
+- [x] **CV submodule**: Added `Abhiram-s-Resume` repo as git submodule at `cv/` with .gitignore, Makefile, and Overleaf workflow in README.
+
 ## 🛠 Technical & Performance
 - [x] **Open Graph**: Add `og:title` and `og:image` for social sharing.
 - [x] **LLM Indexing**: Added JSON-LD structured data for AI readability.
