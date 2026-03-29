@@ -23,3 +23,38 @@ html {
 .bg-footer {
     background-color: #F6F4EF;
 }
+
+/* Collapsible project cards */
+details.project-card {
+    border-left: 3px solid rgba(0, 0, 0, 0.15);
+    padding-left: 16px;
+    margin-bottom: 24px;
+}
+
+details.project-card summary {
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+details.project-card summary::-webkit-details-marker {
+    display: none;
+}
+
+details.project-card summary::before {
+    content: '\25B6';
+    font-size: 0.7em;
+    transition: transform 0.2s ease;
+    flex-shrink: 0;
+}
+
+details.project-card[open] summary::before {
+    transform: rotate(90deg);
+}
+
+details.project-card summary h4 {
+    display: inline;
+    margin: 0;
+}
