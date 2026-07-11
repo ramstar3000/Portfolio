@@ -9,3 +9,6 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+
+# Local CV source (kept locally, not deployed; built PDF lives in its own repo)
+cv/
