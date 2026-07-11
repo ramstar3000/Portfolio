@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="112" fill="#0d1117"/>
+  <rect x="24" y="24" width="464" height="464" rx="92" fill="none" stroke="#1f6feb" stroke-width="10" opacity="0.5"/>
+  <text x="256" y="345" font-family="'Segoe UI', Arial, sans-serif" font-size="260" font-weight="700"
+        text-anchor="middle" fill="#ffffff" letter-spacing="-8">AV</text>
+  <rect x="150" y="392" width="212" height="14" rx="7" fill="#1f6feb"/>
+</svg>
